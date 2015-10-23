@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/cuda/CUDA2/Project/ros_workspace/tutorial/devel/setup.sh
