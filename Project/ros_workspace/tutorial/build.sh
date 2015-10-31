@@ -1,4 +1,4 @@
 #!/bin/bash
-ROS_PACKAGE_PATH=/home/cuda/CUDA2/Project/ros_workspace:$ROS_PACKAGE_PATH
+ROS_PACKAGE_PATH=/home/bulat/temp/CUDA2_OpenCV_ROS/Project/ros_workspace/tutorial:$ROS_PACKAGE_PATH
 cmake CMakeLists.txt
 make
