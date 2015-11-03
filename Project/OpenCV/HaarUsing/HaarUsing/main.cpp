@@ -1,5 +1,4 @@
 #include <iostream>
-
 #include <iomanip>
 #include "opencv2/contrib/contrib.hpp"
 #include "opencv2/objdetect/objdetect.hpp"
@@ -47,10 +46,10 @@ int main()
 
         // 3) Создание классификатора
         CascadeClassifier_GPU cascade_gpu;
-        cascade_gpu.load("[название файла каскада]");
+        cascade_gpu.load("/home/bulat/CUDA2_OpenCV_ROS/Project/OpenCV/data/cascade.xml");
 
         // 4) Загрузка изображения для проверки
-        Mat image = imread("[название изображения]");
+        Mat image = imread("/home/bulat/CUDA2_OpenCV_ROS/Project/OpenCV/pos/p1.bmp");
 
         // 5) Создание вспомогательных объектов Mat
         Mat ImageBuf, resized_cpu;
